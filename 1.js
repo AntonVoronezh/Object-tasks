@@ -31,6 +31,12 @@ let objNull = {};
 
 const getParamSum = arg => {
 
+  let sum = 0;
+  for (key in arg) {
+    // console.log(key);
+    console.log(arg[key]);
+    sum += arg[key];
+  }
   return sum;
 }
 console.log(getParamSum());
