@@ -1,5 +1,9 @@
 // Создайте пустой объект. Добавьте свойство name со своим именем, добавьте свойство 
 // surname с вашей фамилией, поменяте свойство name на Другое имя, удалите свойство surname.
+const obj = {};
+obj.name = 'Anton';
+obj['surname'] = 'Voronezh';
+console.log(obj);
 
 
 
