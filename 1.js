@@ -45,7 +45,11 @@ console.log(getParamSum());
 
 
 // Напишите функцию которая вернёт самый дорогой товар, его Имя и цену.
+const getMostExpensiveParam = arg => {
+  let mostExpensive = 0;
 
+}
+console.log(getMostExpensiveParam(purchases));
 
 
 
