@@ -64,7 +64,12 @@ console.log(getMostExpensiveParam(purchases));
 // второй коеф-нт на который будут умножены цены, она ничего не возвращает, а изменяет 
 // этот же объект (мутабельность)
 const getMutabel = (argObj, argQ) => {
-
+  for (key in argObj) {
+    // console.log(key);
+    // console.log(argObj[key]);
+    argObj[key] *= argQ;
+  }
+  return argObj;
 }
 getMutabel(purchases, 2);
 console.log(purchases);
