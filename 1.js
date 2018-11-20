@@ -63,3 +63,8 @@ console.log(getMostExpensiveParam(purchases));
 // Напишите функцию которая будет принимать 2 параметра, первый параметр (объект) 
 // второй коеф-нт на который будут умножены цены, она ничего не возвращает, а изменяет 
 // этот же объект (мутабельность)
+const getMutabel = (argObj, argQ) => {
+
+}
+getMutabel(purchases, 2);
+console.log(purchases);
