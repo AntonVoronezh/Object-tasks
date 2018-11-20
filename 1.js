@@ -15,7 +15,10 @@ var purchases2 = { "мяса": 120, "хлеба": 8, "детс. питание":
 
 const getParamCount = arg => {
   let count = 0;
-
+  for (key in arg) {
+    // console.log(key);
+    count += 1;
+  }
   return count;
 }
 console.log(getParamCount(purchases2));
