@@ -30,7 +30,9 @@ var purchases = { "мяса": 120, "хлеба": 8, "детс. питание": 
 let objNull = {};
 
 const getParamSum = arg => {
-
+  if (!arg) {
+    return undefined;
+  }
   let sum = 0;
   for (key in arg) {
     // console.log(key);
