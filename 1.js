@@ -29,6 +29,12 @@ console.log(getParamCount(purchases2));
 var purchases = { "мяса": 120, "хлеба": 8, "детс. питание": 230, "чипсов": null, "сок": 24 };
 let objNull = {};
 
+const getParamSum = arg => {
+
+  return sum;
+}
+console.log(getParamSum());
+
 
 // Напишите функцию которая вернёт самый дорогой товар, его Имя и цену.
 
