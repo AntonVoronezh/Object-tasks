@@ -4,7 +4,9 @@ const obj = {};
 obj.name = 'Anton';
 obj['surname'] = 'Voronezh';
 console.log(obj);
-
+obj.name = 'Anton2';
+delete obj.surname;
+console.log(obj);
 
 
 // Напишите функцию которая будет принимать 1 параметр (объект) 
